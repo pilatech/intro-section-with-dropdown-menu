@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+  <main class="container">
+   <header class="header">
+    <img src="images/logo.svg" alt="logo" class="logo">
+    <nav class="nav">
+     <ul class="nav__list nav__list--menu">
+      <li class="nav__list-item nav__list-item--menu nav__list-item--menu--dropdown-parent">
+       <a href="#" class="nav__link nav__link--menu nav__link--dropdown-parent">
+        Features
+       </a>
+       <ul class="nav__list nav__list--dropdown-child">
+        <li class="nav__list-item nav__list-item--dropdown-child">
+         <a href="#" class="nav__link nav__link--dropdown-child">
+          <img src="images/icon-todo.svg" alt="todo" class="nav__link-icon">
+          Todo List
+         </a>
+        </li>
+        <li class="nav__list-item nav__list-item--dropdown-child">
+         <a href="#" class="nav__link nav__link--dropdown-child">
+          <img src="images/icon-calendar.svg" alt="calendar" class="nav__link-icon">
+          Calendar
+         </a>
+        </li>
+        <li class="nav__list-item nav__list-item--dropdown-child">
+         <a href="#" class="nav__link nav__link--dropdown-child">
+          <img src="images/icon-reminders.svg" alt="reminders" class="nav__link-icon">
+          Reminders
+         </a>
+        </li>
+        <li class="nav__list-item nav__list-item--dropdown-child">
+         <a href="#" class="nav__link nav__link--dropdown-child">
+          <img src="images/icon-planning.svg" alt="planning" class="nav__link-icon">
+          Planning
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="nav__list-item nav__list-item--menu nav__list-item--menu--dropdown-parent">
+       <a href="#" class="nav__link nav__link--menu nav__link--dropdown-parent">
+        Company
+       </a>
+       <ul class="nav__list nav__list--dropdown-child">
+        <li class="nav__list-item nav__list-item--dropdown-child">
+         <a href="#" class="nav__link nav__link--dropdown-child">
+          History
+         </a>
+        </li>
+        <li class="nav__list-item nav__list-item--dropdown-child">
+         <a href="#" class="nav__link nav__link--dropdown-child">
+          Our Team
+         </a>
+        </li>
+        <li class="nav__list-item nav__list-item--dropdown-child">
+         <a href="#" class="nav__link nav__link--dropdown-child">
+          Blog
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="nav__list-item nav__list-item--menu">
+       <a href="#" class="nav__link nav__link--menu">Careers</a>
+      </li>
+      <li class="nav__list-item nav__list-item--menu">
+       <a href="#" class="nav__link nav__link--menu">About</a>
+      </li>
+     </ul>
+
+      <!-- actions -->
+
+     <ul class="nav__list nav__list--actions">
+       <li class="nav__list-item nav__list-item--action">
+        <a class="nav__list-link nav__list-link--action"
+        href="#">Login</a>
+       </li>
+       <li class="nav__list-item nav__list-item--action nav__list-item--action--register">
+        <a 
+        class="nav__list-link nav__list-link--action nav__list-link--action--register"
+        href="#">Register</a>
+       </li>
+     </ul>
+    </nav>
+   </header>
+   <main class="main-content">
+    <aside class="hero">
+
+    </aside>
+    <header class="text">
+     <h1 class="text__title">
+      Make remote work
+     </h1>
+     <p class="text__paragraph">
+      Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+     </p>
+     <button class="btn">
+      Learn more
+     </button>
+    </header>
+    <footer class="feature">
+      <img src="images/client-databiz.svg" alt="databiz" class="feature__logo">
+      <img src="images/client-audiophile.svg" alt="databiz" class="feature__logo">
+      <img src="images/client-meet.svg" alt="databiz" class="feature__logo">
+      <img src="images/client-maker.svg" alt="databiz" class="feature__logo">
+    </footer>
+   </main>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
