@@ -15,7 +15,6 @@
 }
 
 body {
- border: 10px solid;
  font-family: 'Epilogue', sans-serif;
  color: var(--mid-gray);
  font-size: 1.8rem;
